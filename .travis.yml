@@ -1,11 +1,13 @@
 ---
-sudo: false
+sudo: required
 language: ruby
 cache: bundler
 rvm:
     - jruby-1.7.25
 script:
-    - rake jython:jar-standalone
+    - bundle exec rake jython:jar-standalone
     - bundle exec rspec spec
 jdk: oraclejdk8
-before_install: []
+before_install:
+    - sudo apt-get -qq update
+    - sudo apt-get install -y ant
