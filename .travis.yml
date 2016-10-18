@@ -7,7 +7,7 @@ rvm:
 script:
     - bundle exec rake jython:jar-standalone
     - bundle exec rspec spec
-jdk: oraclejdk8
+jdk: openjdk7
 before_install:
     - sudo apt-get -qq update
     - sudo apt-get install -y ant
