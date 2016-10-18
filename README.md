@@ -1,6 +1,6 @@
 # Jython for JRuby
 
-[![Travis Build Status](https://travis-ci.org/tsmolka/jruby-jython.svg)](https://travis-ci.org/tsmolka/jruby-jython)
+[![Travis Build Status](https://travis-ci.org/tsmolka/jruby-jython.svg)](https://travis-ci.org/tsmolka/jruby-jython) [![Gem Version](https://badge.fury.io/rb/jruby-jython.svg)](http://badge.fury.io/rb/jruby-jython)
 
 Embeds jython-standalone.jar and few wrappers into single Ruby module.
 
