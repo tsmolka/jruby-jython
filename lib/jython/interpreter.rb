@@ -6,6 +6,7 @@ java_import org.python.util.PythonInterpreter
 
 module Jython
   PythonInterpreter = org.python.util.PythonInterpreter
+  Py = org.python.core.Py
   
   class Interpreter    
     public

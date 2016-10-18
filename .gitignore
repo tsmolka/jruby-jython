@@ -1,3 +1,4 @@
 /Gemfile.lock
+/dist/
 /pkg/
 /*.gem

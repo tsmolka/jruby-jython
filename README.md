@@ -25,6 +25,10 @@ Or install it yourself as:
 
 ## Development
 
+```shell
+jruby -S gem install bundle
+bundle install
+```
 
 ## Testing
 
