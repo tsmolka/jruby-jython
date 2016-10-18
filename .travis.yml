@@ -7,6 +7,4 @@ rvm:
 script:
     - bundle exec rspec spec
 jdk: oraclejdk8
-before_install:
-    - sudo apt-get update -qq
-    - sudo apt-get install -qq ant
+before_install: []
