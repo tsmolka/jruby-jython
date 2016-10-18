@@ -4,5 +4,7 @@ require File.expand_path("../../resources/jython-standalone-#{Jython::JAR_VERSIO
 require 'jython/interpreter'
 
 module Jython
-  #org.python.util.jython
+  def self.Main(argv=ARGV)
+    Java::org.python.util.jython.main(argv)
+  end
 end
