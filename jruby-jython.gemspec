@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.licenses      = ['Apache-2.0']
   
   spec.summary       = %q{ Jython for JRuby }
-  spec.description   = %q{ embeds Jython jar and few wrappers into single module }
+  spec.description   = %q{ Embeds jython-standalone.jar and few wrappers into single Ruby module }
   spec.homepage      = 'https://github.com/tsmolka/jruby-jython'
 
   #spec.platform      = 'java'

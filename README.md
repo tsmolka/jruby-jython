@@ -1,6 +1,8 @@
-# Ruby::Jython
+# Jython for JRuby
 
-Jython for JRuby
+[![Travis Build Status](https://travis-ci.org/tsmolka/jruby-jython.svg)](https://travis-ci.org/tsmolka/jruby-jython)
+
+Embeds jython-standalone.jar and few wrappers into single Ruby module.
 
 Currently under development - likely to break at a moment's notice.
 
